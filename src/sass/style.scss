@@ -1,10 +1,15 @@
-@import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
+@import 'base/variables';
 
 * {
     font-family: 'Montserrat', sans-serif;
 }
     
-h1{
-    color: blue;
+.container{
+    max-width: 1113px;
+    margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/subheader';
