@@ -1,0 +1,16 @@
+.button{
+    width: 200px;
+    height: 45px;
+    margin: 50px 450px 0px 450px ;
+    background: $main-color;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    &:hover{
+        background-image: linear-gradient(to top, #466369 0%, $main-color 100%);
+    }
+}

@@ -1,0 +1,11 @@
+.text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    &_services{
+        max-width: 100%;
+        margin: 50px 0px 70px 0px;
+    }
+}
