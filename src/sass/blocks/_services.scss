@@ -1,5 +1,5 @@
 .services {
-    padding: 70px 0 80px 0;
+    padding: 70px 0px 80px 0px;
     background-color: #E0E0E0;
     &__wrapper {
         margin-top: 80px;
@@ -27,7 +27,7 @@
     }
     &__text{
         margin-left: 28px;
-        &_subtitle {
+        h3 {
             margin-top: 12px;
             font-weight: 600;
             font-size: 18px;

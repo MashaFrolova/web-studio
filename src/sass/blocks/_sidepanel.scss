@@ -10,9 +10,10 @@
     height: 340px;
     z-index: 3;
     &__link {
+        padding-top: 5px;
         &:hover {
             svg path {
-                fill: #ffff;
+                fill: $second-color;
             }
         }
     }
@@ -20,6 +21,7 @@
         width: 3px;
         height: 70px;
         background-color: $main-color;
+        margin-top: 7px;
     }
     &__text {
         margin-top: 20px;

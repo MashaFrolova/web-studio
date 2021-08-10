@@ -1,0 +1,35 @@
+.skills {
+    max-height: 970px;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    background: url(../../img/we_can_1.jpg) center center/cover no-repeat;
+    background-color: transparent;
+    &__items {
+        margin-top: 80px;
+        padding-bottom: 80px;
+        padding: 0 10px;
+        display: grid;
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+        grid-auto-rows: minmax(270px, auto);
+        gap: 13px;
+    }
+    &__item {
+        border: 3px solid $main-color;
+        padding: 30px 30px 25px 30px;
+        &-img {
+            display: flex;
+            align-items: center;
+            min-height: 65px;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 15px;
+            margin-bottom: 0;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}

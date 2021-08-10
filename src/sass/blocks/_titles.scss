@@ -4,4 +4,13 @@
     line-height: 53px;
     text-align: center;
     color: #323232;
+    &__about{
+        margin-top: 0;
+        text-align: left;
+        padding-left: 0;
+    }
+    &__skills {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
